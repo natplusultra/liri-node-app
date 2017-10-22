@@ -1,16 +1,8 @@
-// loads the fs package to read and write
+// dependencies
 var fs = require("fs");
-
-// loads the request package
 var request = require("request");
-
-// loads the twitter package
 var twitter = require("twitter"); 
-
-// loads the node spotify api
 var spotifyAPI = require("node-spotify-api");
-
-// imports the keys that were exported from keys.js
 var keys = require("./keys.js");
 
 // stores all of the arguments in an array
